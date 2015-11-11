@@ -1,0 +1,12 @@
+# Site settings
+# title: xxx
+title: CrzyJcky
+description: Connecting Ideas
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://crzyjcky.com" # the base hostname & protocol for your site
+twitter_username: crzyjcky
+github_username:  crzyjcky
+
+# Build settings
+markdown: kramdown
