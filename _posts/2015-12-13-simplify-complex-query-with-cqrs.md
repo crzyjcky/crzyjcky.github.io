@@ -168,5 +168,17 @@ Overall Consistency = Consistency (Normalized) && Consistency (Denormalized)
   
 ---
 
+# Common Strategy
 
+![common-strategy.png](/wp-content/uploads/2015/12/common-strategy.png)
+
+Read: 
+O(log n) if it is indexed correctly, 
+O(n) without index.
+
+---
+
+# CQRS
+
+![cqrs-2.png](/wp-content/uploads/2015/12/cqrs-2.png)
 
