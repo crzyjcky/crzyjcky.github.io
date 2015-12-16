@@ -182,3 +182,48 @@ O(n) without index.
 
 ![cqrs-2.png](/wp-content/uploads/2015/12/cqrs-2.png)
 
+---
+
+# Benefit #1: Fast Read
+
+- Simple read. No join operation.
+- We can achieve O(1) time complexity by using appropriate database.
+- Minimized data transfer – reduced network IO delay.
+- Reduced memory requirement – reduced GC.
+
+![benefit-1-fast-read.png](/wp-content/uploads/2015/12/benefit-1-fast-read.png)
+
+---
+
+# Benefit #2: Fast Write
+
+- Less indexes created. 
+- Tables (for write operation) are not polluted by Indexes (which are created for read operation).
+
+---
+
+# Benefit #3: Simple Read Logic
+
+- Less convoluted Read-logic.
+- Simple logic reduces mistakes.
+- It promotes knowledge sharing among team members.
+- Shorten development time.
+
+---
+
+# Benefit #4: Flexibility - Different Databases
+
+![benefit-4-flexibility.png](/wp-content/uploads/2015/12/benefit-4-flexibility.png)
+
+---
+
+# Benefit #5: Consistency
+
+![benefit-5-consistency.png](/wp-content/uploads/2015/12/benefit-5-consistency.png)
+
+---
+
+# The End
+
+
+
